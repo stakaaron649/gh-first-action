@@ -4,7 +4,7 @@ name: First Workflow
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubunutu-latest
+    runs-on: windows-latest
     steps:
       - name: Print greeting
         run: echo "Hello World!"
